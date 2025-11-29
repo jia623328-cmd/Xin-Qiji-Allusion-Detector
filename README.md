@@ -1,2 +1,22 @@
-# Xin-Qiji-Allusion-Detector
-基于n8n和DeepSeek AI的辛弃疾词作用典自动识别器
+# 辛弃疾词作用典自动识别器
+
+基于n8n工作流和DeepSeek AI的辛弃疾词作历史典故自动识别工具。
+
+## 项目简介
+
+本项目通过n8n自动化平台和DeepSeek AI大模型，实现了对辛弃疾词作中历史典故的自动识别与解释。能够准确识别《永遇乐·京口北固亭怀古》等词作中的历史人物和典故。
+
+## 功能特点
+
+- 自动识别辛弃疾词作中的历史典故
+- 提供典故的出处和含义解释
+- 支持可视化工作流（n8n）和Python代码两种实现方式
+- 返回结构化的JSON格式结果
+
+## 使用方法
+
+### Python版本
+1. 安装依赖：`pip install requests`
+2. 设置环境变量：
+   ```bash
+   export DEEPSEEK_API_KEY="你的API密钥"
